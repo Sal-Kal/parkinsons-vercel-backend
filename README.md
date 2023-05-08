@@ -7,6 +7,7 @@
 - API url: `http://localhost:8000/classify/`
 
 - The payload format:
+
 ```
 Endpoint: /classify
 
@@ -20,6 +21,7 @@ Body:
 ```
 
 - Response:
+
 ```
 {
   "status": "string",
