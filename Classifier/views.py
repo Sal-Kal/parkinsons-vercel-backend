@@ -17,6 +17,9 @@ spiral_width = 256
 wave_height = 256
 wave_width = 512
 
+def index():
+    return "Hello from Vercel"
+
 @api_view(['POST'])
 def classify(request):
     try:
